@@ -1,3 +1,5 @@
+# Reanalisando o código após o reset
+script = """
 -- Tr1X Menu Macabro vFinalizado 💀
 local plr = game.Players.LocalPlayer
 local sheckles = plr:FindFirstChild("Sheckles") or plr:WaitForChild("Sheckles")
@@ -132,3 +134,6 @@ end)
 
 -- Mostra aba inicial
 panels["Home"].Visible = true
+"""
+
+len(script.splitlines())
